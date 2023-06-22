@@ -1,0 +1,137 @@
+/*Formatção basica*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Formatção basica*/
+
+body{
+    background-color: #ffebcd;
+}
+main{
+    padding: 10px;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio{
+    width: 600px;
+    height: 600px;
+    background-color: aliceblue;
+    border-radius: 600px;
+    border: 20px groove #000000; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/*formatação dos numeros*/
+.numero{
+    font-size: 1.3rem;
+    font-weight: 600;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 1px;
+   --transform: rotate(20deg);
+}
+
+.numero1{ 
+    transform: rotate(30deg);  
+}
+.numero2{ 
+    transform: rotate(60deg);  
+}
+
+.numero3{ 
+    transform: rotate(90deg);  
+}
+
+.numero4{ 
+    transform: rotate(120deg);  
+}
+.numero5{ 
+     transform: rotate(150deg);  
+    
+}
+.numero6{  
+    transform: rotate(180deg);  
+    
+}
+.numero7{ 
+     transform: rotate(210deg); 
+
+    
+}
+.numero8{  
+    transform: rotate(240deg);   
+   
+}
+
+.numero9{  
+    transform: rotate(270deg);   
+   
+}
+.numero10{  
+    transform: rotate(300deg);   
+   
+}
+.numero11{  
+    transform: rotate(330deg);   
+   
+}
+
+.numero12{  
+    transform: rotate(360deg);
+}   
+   
+/*formatação dos numeros*/
+
+/*formatação dos ponteiro*/
+
+.hora{
+    width: 15px;
+    height: 160px;
+    background-color:rgb(17, 17, 17) ;
+    position: absolute;
+    border-radius: 5px;
+    transform: translate(0, -50%);
+    transform-origin: bottom center;
+
+}
+.minuto{
+    width: 8px;
+    height: 210px;
+    background-color:rgb(20, 19, 19) ;
+    position: absolute;
+    border-radius: 5px;
+    transform: translate(0, -50%);
+    transform-origin: bottom center;
+
+}
+.second{
+    width: 5px;
+    height: 240px;
+    background-color:red ;
+    position: absolute;
+    border-radius: 5px;
+    transform: translate(0, -50%) ;
+    transform-origin: bottom center;
+    
+}
+.rond{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 20px;
+    position:absolute;
+}
+/*formatação dos ponteiro/
